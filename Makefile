@@ -46,3 +46,6 @@ ex: ex.o ex_command.o \
 	ex_write.o\
 	ex_wq.o\
 	ex_xit.o\
+
+clean:
+	rm -f *.o ex vi
